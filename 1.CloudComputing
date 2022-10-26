@@ -52,6 +52,10 @@ Shared Responsibility
   -) Customer is responsible for the security IN the cloud
   -) AWS is responsible for the security OF the cloud
 
+Notes:
+  -) Capacity is virtually unlimited on each AWS Region
+  -) IAM has a global scope
+
 
 
 
