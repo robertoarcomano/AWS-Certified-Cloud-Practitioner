@@ -1,0 +1,43 @@
+01 Introduction 9
+02 Code & Slides Download 0
+03 What is Cloud Computing_ 33
+04 IAM - Identity and Access Management 54
+05 EC2 - Elastic Compute Cloud 78
+06 EC2 Instance Storage 54
+07 ELB & ASG - Elastic Load Balancing & Auto Scaling Groups 36
+08 S3 76
+09 Databases & Analytics 46
+10 Other Compute Services_ ECS, Lambda, Batch, Lightsail 38
+11 Deployments & Managing Infrastructure at Scale 56
+12 Leveraging the AWS Global Infrastructure 49
+13 Cloud Integrations 17
+14 Cloud Monitoring 50
+15 VPC & Networking 26
+16 Security & Compliance 49
+17 Machine Learning 16
+18 Account Management, Billing & Support 70
+19 Advanced Identity 8
+20 Other Services 17
+21 AWS Architecting & Ecosystem 38
+22 Preparing for the Exam + Practice Exam - AWS Certified Cloud Practitioner 26
+23 Congratulations - AWS Certified Cloud Practitioner 2
+
+Total minutes: 848
+Total hours: 14.1333
+
+04/10/2022: 2.9/14.13 = 21%
+10/10/2022: 5.67/14.13 = 40%
+	    6.43/14.13 = 45%
+11/10/2022: 7.063/14.13 = 50%
+	    8/14.13 = 57%
+	    8.82/14.13 = 62%
+12/10/2022: 9.10/14.13 = 64%
+14/10/2022: 9.93/14.13 = 70%
+	    10.36/14.13 = 73%
+15/10/2022: 11.17/14.13 = 79%
+	    11.44/14.13 = 81%
+22/10/2022: 12.61/14.13 = 89%
+24/10/2022: 14.13/14.13 = 100%
+
+
+
