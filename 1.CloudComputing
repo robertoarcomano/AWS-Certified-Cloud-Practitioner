@@ -1,1 +1,57 @@
+Cloud Computing:
+  -) on-demand delivery of compute power, database storage, applications, and other IT resources
+  -) pay-as-you-go pricing
+  -) right type and size
+  -) quickly
+  -) simple way to access
+
+Private Cloud (on premises), Public Cloud (on cloud), Hybrid Cloud (mixed)
+5 Cloud Caracteristics:
+  1. On demand
+  2. Broad network access
+  3. Multi customers sharing
+  4. Elasticity and Scalability
+  5. Measured service
+
+6 Advantages of Cloud Computing:
+  1. Pay on demand -> No HW cost, low TCO, low Operational OPEX
+  2. cost lowered by massive economies of scale
+  3. no guessing, yes measuring
+  4. highier speed and agility
+  5. no money on data centers
+  6. Go global in minutes
+
+Problems solved by Cloud:
+  1. Flexibility
+  2. Cost-Effectiveness
+  3. Scalability
+  4. Elasticity
+  5. HA FT
+  6. Agility
+
+Types of Cloud Computing:
+  -) Iaas (Infrastructure as a Service -> Resources level managed, HW managed by the Cloud)
+    -) EC2
+  -) PaaS (Platform as a Service -> SW Level managed, HW + OS managed by the Cloud)
+    -) Beanstalk
+  -) SaaS (Software as a Service -> Application level managed, Everything managed by the Cloud)
+    -) Rekognition for ML
+
+AWS Cloud costs:
+  1. Computer (pay per use)
+  2. Storage (data stored)
+  3. Data transfer OUT
+
+AWS Infrastructure
+  -) Regions (us-east-1), cluster of data centers
+  -) Availability Zones (2-6 in a Region, ap-southeast-2a), 1 or more data centers, separated from each other
+  -) Data Centers
+  -) Edge Locations / Points of Presence
+
+Shared Responsibility
+  -) Customer is responsible for the security IN the cloud
+  -) AWS is responsible for the security OF the cloud
+
+
+
 
