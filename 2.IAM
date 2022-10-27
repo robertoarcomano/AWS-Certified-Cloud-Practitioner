@@ -1,1 +1,30 @@
+IAM = Identity and Access Management, Global service
+  -) Use IAM no Root
+  -) Use groups and roles
+  -) Policies: json file with permission rules
+    -) [version, id, statement{sid, effect, principal, action, resource, condition}]
+  -) Use "Least Privilege Principle"
+  -) MFA (Multi Factor Authentication)
+    -) Virtual MFA device (Google Authenticator, Amazon Authy)
+    -) U2F Universal 2nd Factor (YubiKey)
+    -) Hardware Jey Fob MFA Device/GovCloud(US) (Secure code)
+  -) Map IAM User to a physical user
+
+How to use IAM:
+  1. AWS Console
+  2. CLI (aws tool)
+  3. SDK
+
+IAM Roles: Assign permissions to a service account
+
+IAM Audit Tools:
+  -) Credentials Report (account-level) (list users)
+  -) Access Advisor (user-level) (what, when)
+
+Shared Responsibility Model
+  -) AWS: Infra
+  -) Customer: IAM Users/Groups/Roles
+
+
+
 
