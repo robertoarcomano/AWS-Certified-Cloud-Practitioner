@@ -1,6 +1,7 @@
 IAM = Identity and Access Management, Global service
   -) Use IAM no Root
-  -) Use groups and roles
+  -) Use groups
+  -) Use roles for services
   -) Policies: json file with permission rules
     -) [version, id, statement{sid, effect, principal, action, resource, condition}]
   -) Use "Least Privilege Principle"
