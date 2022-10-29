@@ -1,1 +1,56 @@
+EC2 = Elastic Compute Cloud = Infrastructure as a Service
 
+Storage:
+  -) Network-attached: EBS, EFS
+  -) Hardware: EC2 Instance Store
+
+Security group: Firewall
+
+Bootstrap script (Provisioning): EC2 User Data script (root user)
+
+Instance Types
+  Format [m5.2xlarge]
+    m: instance class
+    5: generation
+    2xlarge: size within the class
+  Use case
+    General Purpose: balance among Compute, Memory, Networking
+    Compute Optimized: High cpu performance
+    Memory Optimized: Big RAM
+    Storage Optimized: High disk performance
+
+Security Groups
+  -) Control IN and OUT from EC2 instance
+  -) Only Allow rules
+  -) Reference to IP or another Security Group
+  -) Security Groups to EC2 = 1 to many
+  -) Timeout = Security group error
+  -) Connection refused = Application problem
+  -) All inbound blocked by default
+  -) All outbound is authorized by default
+
+EC2 Instance Connect: implicit ssh service
+
+Payments:
+  -) On-Demand: pey per second
+  -) Reserved
+    -) 1 & 3 years
+    -) Reserved or Convertible Reserved
+  -) Saving Plans (1 & 3 years): $10/h, long workload
+  -) Spot Instances: short, less reliable -> Most Cost Efficient
+  -) Dedicated Hosts (physical server)
+  -) Dedicated Instances (single hardware reserved)
+  -) Capacity Reservations (in AZ for some time)
+
+Shared Responsibility Model
+  -) AWS
+    -) Infrastructure
+    -) Isolation
+    -) Hardware housekeeping
+    -) Compliance
+  -) Customer
+    -) Security Groups
+    -) OS Patches
+    -) SW/Utils
+    -) IAM roles to EC2 & IAM User Mng
+    -) Data security Instance
