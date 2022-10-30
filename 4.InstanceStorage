@@ -1,1 +1,43 @@
+EBS: Elastic Block Store
+    -) Network drive
+    -) Persistent
+    -) Locked to 1 AZ
+    -) To be provisioned
+    -) Snapshots to copy between AZs
+    -) Snapshot Archive (75% cheaper, 24/72 hours to be restored)
+    -) Recycle bin retention rule (1 day to 1 year)
 
+AMI = Amazon Machine Image
+    -) Custom image
+    -) Specific regione
+    -) Launchable from
+        -) Public AMI
+        -) Private
+        -) AWS Marketplace AMI
+   -) Process
+        -) Start EC2
+        -) Customize it
+        -) Stop it
+        -) Build AMI from it
+        -) Launch instances from AMI
+   -) EC2 Image Builder
+    -) Automatic
+    -) Can run on a schedule
+    -) Free
+
+EC2 Instance Store
+    -) Faster than EBS
+    -) Ephemeral (lose data upon instance stopping)
+    -) Good for buffer
+    -) Can be created just with a new image
+
+EFS - Elastic File System
+    -) Managed NFS
+    -) HA
+    -) Pay per use
+    -) Infrequent Access (EFS-IA with a lifecycle policy)
+
+FSx: third party high performance
+    -) FSx for Lustre (High performance computing HPC): Linux Cluster
+    -) FSx for Windows File Server (SMB & NTFS, AD, from on-primise also)
+    -) FSx for NetApp ONTAP
