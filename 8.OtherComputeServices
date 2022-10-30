@@ -1,1 +1,33 @@
+ECR = Elastic Container Registry
 
+ECS = Elastic Container Service
+    -) EC2 to be managed and provisioned
+
+Fargate = Container Service = EKS = Elastic Kubernetes Service
+    -) Serverless and Managed by AWS
+
+Serverless = FaaS (Function as a Service) (Lambda, DB...)
+
+AWS Lambda
+    -) Virtual functions
+    -) Run on demand
+    -) Short executions
+    -) Auto scaled
+    -) Event driven (Es.: CloudWatch Events)
+    -) Time limit <=15'
+    -) Paid with time/invocation number
+
+Amazon API Gateway
+    -) REST to Lambda/HTTP
+    -) Serverless
+
+AWS Batch
+    -) Managed
+    -) Docker Images on ECS
+    -) It launches an EC2 Instance
+    -) No time limit
+
+Amazon Lightsail
+    -) Wizard for launching Servers, Storages, DB, Net
+    -) Low experienced people
+    -) HA
