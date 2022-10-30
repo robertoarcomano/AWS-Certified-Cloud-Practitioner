@@ -62,6 +62,7 @@ AWS S3
             -) Deep Archive - days
         -) Intelligent Tiering
         -) Use Lifecycle configuration to move among classes
+        -) Glacier Vault Lock to manage readonly data
 
      -) Durability (no data loss)
      -) Availability (service available)
