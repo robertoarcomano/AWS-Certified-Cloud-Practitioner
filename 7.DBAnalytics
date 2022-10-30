@@ -19,7 +19,7 @@ Amazon ElastiCache
 DynamoDB
     -) NoSQL (key/value)
     -) Fully managed
-    -) servless
+    -) serverless
     -) Fast with low latency
     -) DAX = DynamoDB Accelerator (in-memory cache), 10x faster
     -) Global Tables
