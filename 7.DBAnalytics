@@ -1,1 +1,92 @@
+Relational Databases vs NoSQL Databases (JSON)
+RDS = Relational Database Service
+    -) managed
+    -) PGSQL, MySQL, MariaDB, Oracle, SQL Server, Aurora
+    -) PRO: automatic OS patching, backup, replica for read performance, DR, Scaling
+
+Amazon Aurora
+    -) Amazon proprietary
+    -) PGSQL and MySQL Supported
+    -) Cloud optimized, cost more (20%)
+    -) Read Replicas <= 5
+    -) Multi-AZ failover
+
+Amazon ElastiCache
+    -) in-memory databases
+    -) high performance
+    -) used for Redis, Memcached
+
+DynamoDB
+    -) NoSQL (key/value)
+    -) Fully managed
+    -) servless
+    -) Fast with low latency
+    -) DAX = DynamoDB Accelerator (in-memory cache), 10x faster
+    -) Global Tables
+        -) Multi AZ
+        -) Active - Active replication
+
+Redshift
+    -) PGSQL based
+    -) OLAP (Online Analytical processing) analytics and data warehousing
+    -) Load data every hour
+    -) 10x faster other OLAP solution
+    -) Columnar storage of data
+    -) MPP (parallel query)
+    -) HA
+    -) Pay per use
+    -) SQL Interface
+
+Amazon EMR
+    -) Elastic MapReduce - Big data with Hadoop
+    -) Many EC2 instances
+    -) Autoscaling
+
+Amazon Athena
+    -) Query (SQL) service to analyze S3 data
+    -) Serverless
+    -) Use case: BI, Analytics, Reporting, Logs
+
+Amazon QuickSight
+    -) Machine Learning BI to create Dashboards
+
+DocumentDB
+    -) MongoDB AWS version
+    -) Managed, HA, 3 AZ, AutoScale
+
+Amazon Neptune
+    -) Graph DB (Social Network)
+    -) Managed
+    -) HA 3 AZ
+
+Amazon QLDB - "Quantum Ledger DB"
+    -) Financial transactions log
+    -) Managed, Serverless, HA, 3AZ
+    -) Immutable
+    -) Cryptographically verifiable
+    -) central oriented (financial rules)
+
+Amazon Managed Blockchain
+    -) no central authority
+
+AWS GLUE
+    -) ETL (Extract, Transform, Load): Data transformation
+    -) serverless
+    -) Use case: prepare S3/RDS for Redshift
+    -) Glue Data Catalog for datasets
+
+DMS
+    -) Database Migration Service between DBs
+    -) Source remains available during migration
+    -) Oracle - Oracle, Oracle - SQL Server
+    -) EC2 instance required
+
+
+
+
+
+
+
+
+
 
