@@ -1,1 +1,81 @@
+AWS S3
+    -) Infinitely scaling storage
+    -) Used as backbone
+    -) Use cases
+        -) Backup and storage
+        -) DR
+        -) Archive
+        -) Hybrid Cloud Storage
+        -) App hosting
+        -) Media hosting
+        -) Big data
+        -) SW Delivery
+        -) Static Website
 
+    -) Buckets
+        -) Folders
+        -) Store Objects
+        -) Global unique name
+        -) Defined at Region level
+        -) no uppercase, no underscore, no IP, starts with [a-z0-9], not starting with xn--, -s3alias
+
+    -) Objects
+        -) Key = FULL Path. Es. s3://my-bucket/my_file.txt (prefix + object)
+        -) No directories, simulated by UI
+        -) MAX Object size: 5TB (need multi-part upload if > 5GB)
+        -) Metadata (key/pairs)
+        -) Tags
+        -) Version ID possible to enable
+
+    -) Security
+        -) User-based (IAM policies)
+        -) Resource-based
+            -) Bucket policies (json, effect(Allow/Deny), Actions (APIs affected), Principal (User))
+                -) Used for Public access
+                -) Cross-Account Access
+            -) Object ACL
+            -) Bucket ACL
+        -) Block Public Access to be removed if public access wanted
+        -) Encryption with keys (no, server(at rest), client(in transit))
+        -) EC2 Instance Role to access a Bucket (can be set at account level)
+
+    -) Static Website Hosting - http://bucket-name.s3-website-aws-region.amazonaws.com
+
+    -) Versioning
+        -) Bucket level
+        -) Easy to undelete to a previous version
+
+    -) Replication
+        -) Needs Versioning on both sides
+        -) CRR (Cross-Region Replication)
+        -) SRR (Same-Region Replication)
+        -) Buckets could be in different AWS Accounts
+        -) Asynchronous copying
+
+    -) Storage Classes
+        -) Standard, General Purpose
+        -) Standard-Infrequent Access (IA), lower cost
+        -) One Zone-Infrequent Access
+        -) Glacier - Low-cost for archive and backup
+            -) Instant Retrieval - ms
+            -) Flexible Retrieval - minutes to hours
+            -) Deep Archive - days
+        -) Intelligent Tiering
+        -) Use Lifecycle configuration to move among classes
+
+     -) Durability (no data loss)
+     -) Availability (service available)
+
+
+AWS Snow Family (needed if time > 1 week)
+    -) Data Migration in/out AWS
+        -) Snowcone (8TB)
+        -) Snowball Edge
+            -) Storage Optimized (80TB)
+            -) Compute Optimized (42TB)
+        -) Snowmobile (10-100PB)
+    -) Edge Computing: portable devices to collect and process data at the edge
+        -) Snowcone
+        -) Snowball Edge
+    -) AWS OpsHub
+    -) AWS Storage Gateway: bridge on-premises with AWS S3
