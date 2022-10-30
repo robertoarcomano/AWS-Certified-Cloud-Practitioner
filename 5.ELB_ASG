@@ -1,1 +1,31 @@
+Scalability:
+    -) Vertical (instance type Scale up / down)
+    -) Horizontal = Elasticity (instance number Scale out / in) = High Availability for more than 2 AZs
+       Auto Scaling Group multi AZ + Load Balancer multi AZ
+    -) Elasticity = auto-scaling
+    -) Agility = distractor, quick services deployment
 
+Load Balancing
+    -) EC2 Instances behind a Load Balancer
+    -) single DNS
+    -) no failures
+    -) health checks
+    -) SSL Termination (HTTPS)
+    -) HA across AZs
+    -) ELB = Elastic Load Balancer
+        -) Managed by AWS
+        -) Application LB HTTP(s) - Layer 7
+        -) Network LB - TCP Layer 4 (1000s connections)
+        -) Classic LB - 4 + 7 (retiring)
+        -) ASG = Auto Scaling Group
+            -) Automatic creates / destroys EC2 instances
+            -) Min/Max/Desired number
+            -) Health checks
+            -) Optimal price: cost savings
+            -) Strategies
+                -) Manual Scaling
+                -) Dynamic Scaling
+                    -) Simple / Step (CloudWatch alarm, es. 70% cpu)
+                    -) Target Tracking (Average CPU 40%)
+                    -) Scheduled (time)
+                -) Predictive (ML to predict future traffic)
