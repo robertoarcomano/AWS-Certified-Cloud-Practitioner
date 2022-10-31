@@ -1,0 +1,37 @@
+Global application
+    -) deployed in multiple geographies
+    -) Decrease latency
+    -) DR
+    -) Attack protection
+    -) Regions, AZs, Edge and Points of Presence
+
+Amazon Route 53 = Managed DNS Service
+    -) Routing Policy
+        -) Simple
+        -) Weighted
+        -) Latency
+        -) Failover
+
+AWS CloudFront
+    -) Use Content Delivery Network (CDN)
+    -) Improve read performance - cached content at the edge
+    -) DDoS protection
+    -) S3 bucket, LB, HTTP, EC2, S3 website
+    -) Uses CloudFront Edge Location to cache the content
+
+S3 Transfer Acceleration = forward the data to a S3 bucket closer to the client
+
+AWS Global Accelerator = move the IP to an Edge Location (60% improvement)
+
+AWS Outposts = AWS Racks put on-premises
+
+AWS WaveLength = 5G deployment (Ultra-low latency)
+
+AWS Local Zones = Move AWS Services closer to the client
+
+Global Applications Architecture
+    -) 1 Region, 1 AZ
+    -) 1 Region, n AZ (HA)
+    -) n Region, Active-Passive (better read)
+    -) n Region, Active-Active (better write)
+

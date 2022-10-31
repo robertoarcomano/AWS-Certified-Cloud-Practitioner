@@ -9,6 +9,7 @@
 09 Databases & Analytics 46
 10 Other Compute Services_ ECS, Lambda, Batch, Lightsail 38
 11 Deployments & Managing Infrastructure at Scale 56
+
 12 Leveraging the AWS Global Infrastructure 49
 13 Cloud Integrations 17
 14 Cloud Monitoring 50
