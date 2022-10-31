@@ -1,1 +1,45 @@
+Amazon WorkSpaces DaaS Desktop as a Service
 
+Amazon AppStream 2.0 App Streaming via Web
+
+Amazon Sumerian VR AR 3D
+
+AWS IoT Core
+
+Amazon Elastic Transcoder media converter
+
+AWS AppSync
+
+AWS Amplify Full Stack Dev
+
+AWS Device Farm to Test Mobiles/Tablets
+
+AWS Backup centrally managed with Backup Plans
+
+Disaster Recovery Strategies
+	-) Cheapest? Backup and Restore
+	-) Medium: Pilot Light (ready to scale)
+	-) More expensive: Warm Standby
+	-) Most expensive: Multi-Site / Hot-site
+
+Failover to another Region
+
+AWS Elastic Disaster Recovery (DRS)
+	-) To recover physical/virtual...
+	-) Continuous block level replication using a AWS Replication Agent into a Staging ENV (low cost)
+    -) Failover in minutes
+    -) Failback
+
+AWS DataSync
+	-) Move on-premises to AWS, S3, EFS, FSX
+	-) Incremental replication
+
+AWS Fault Injection Simulator (FIS)
+	-) Chaos Engineering (stressing with disrupting)
+	-) Experiment Template
+
+AWS Step Functions visual workflow for Lambda
+
+AWS Ground Station for Satellite Communications
+
+Amazon Pinpoint for marketing communications
