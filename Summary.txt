@@ -15,8 +15,8 @@
 15 VPC & Networking 26
 16 Security & Compliance 49
 17 Machine Learning 16
-
 18 Account Management, Billing & Support 70
+
 19 Advanced Identity 8
 20 Other Services 17
 21 AWS Architecting & Ecosystem 38

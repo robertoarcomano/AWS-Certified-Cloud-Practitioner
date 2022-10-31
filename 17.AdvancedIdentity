@@ -1,1 +1,11 @@
+AWS STS Security Token Service for Temporary credentials
+
+Amazon Cognito (Identity for web / mobile app)
+
+Microsoft AD using AWS Directory Services:
+	AWS Managed Microsoft AD
+	AD Connector
+	Simple AD
+
+AWS IAM Identity Center = SSO
 
