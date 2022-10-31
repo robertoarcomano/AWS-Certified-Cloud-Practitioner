@@ -1,1 +1,69 @@
+DDOS Protection
+    -) AWS Shield
+        -) Standard
+        -) Advanced
+            -) 24/7 Team
+            -) higher fees protection
+
+    -) WAF Web Application Firewall
+        -) Layer 7
+        -) Deploy on LBm API Gateway, CloudFront
+        -) Web ACL
+
+Penetration testing are welcomes, but DDOS
+
+"At rest" vs "in transit" Encryption
+
+AWS KMS Key Management Service Managed by AWS
+
+CloudHSM Hardware Security Module
+    -) AWS Provides HW
+    -) Customer provides SW
+
+CMK Customer Master Keys
+    -) Customer Managed
+    -) AWS Manager
+    -) AWS Owned
+    -) CloudHSM Keys
+
+AWS ACM Certificate Manager
+    -) TLS
+
+AWS Secrets Manager
+    -) Rotation
+    -) For RDS
+
+AWS Artifact = Documentation for compliance and security
+    -) Reports
+    -) Agreements
+
+Amazon GuardDuty
+    -) Machine Learning uses logs to protect data
+	-) Protection from CryptoCurrency attacks
+
+Amazon Inspector EC2 and container only
+	-) Security assessments
+	-) Generates Reports
+ 	-) Sent to Security hub as well as EventBridge
+ 	-) CVE checks
+ 	-) Risk score
+
+AWS Config
+    -) Records configuration over time
+
+Amazon Macie Machine Learning to protect sensitive data (PII)
+
+AWS Security Hub
+	-) Aggregate alerts -> 1 place for all security
+
+Amazon Detective
+    -) Investigates with deep analyses to find the root cause of security issues
+    -) Provides visualization
+
+AWS Abuse -> team to send email to
+
+Root user privileges
+    -) Don't use it if you can avoit it
+	-) Change account settings, close, Change AWS Support plan,
+
 
