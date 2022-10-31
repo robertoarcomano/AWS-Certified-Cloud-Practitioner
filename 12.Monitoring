@@ -1,1 +1,25 @@
+Amazon CloudWatch
+    -) Provide Metrics for every AWS Service
+    -) Dashboards
+    -) Alarms define threshold to do EC2 Actions, Autoscaling, SNS Notifications
+    -) Logs (agent on EC2 and on-premises)
+    -) real-time log monitoring
 
+Amazon CloudWatch events = Amazon EventBridge
+    -) Cron job -> Lambda
+    -) Event pattern -> Send SNS notification
+
+AWS CloudTrail = Audit
+    -) Access logs, API calls
+    -) Insights: unusual activities
+
+AWS X-Ray = Debug microservices applications
+
+Amazon CodeGuru
+    -) ML for code and performance review
+    -) Reviewer
+    -) Profiler
+
+AWS Service Health Dashboard
+    -) Status - generic
+    -) Personal - impact on your services
