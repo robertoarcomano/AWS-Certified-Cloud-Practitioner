@@ -15,7 +15,7 @@ Amazon Route 53 = Managed DNS Service
 AWS CloudFront
     -) Use Content Delivery Network (CDN)
     -) Improve read performance - cached content at the edge
-    -) DDoS protection
+    -) DDoS protection using WAF and Shield
     -) S3 bucket, LB, HTTP, EC2, S3 website
     -) Uses CloudFront Edge Location to cache the content
 
