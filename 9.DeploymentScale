@@ -1,1 +1,36 @@
+CloudFormation
+    -) Declarative way to creare AWS Infrastructure
+    -) IaaC
+    -) Stack Designer (Graphical View)
+    -) CDK -> CloudFormation Template -> CloudFormation
 
+AWS Elastic Beanstalk
+    -) Developer centric view
+    -) PaaS (Platform as a Service)
+    -) Custom responsibility: the code
+    -) Health Monitoring with CloudWatch
+
+AWS CodeCommit = Github
+
+AWS CodeBuild = Jenkins Job
+
+AWS CodePipeline = Jenkins Pipeline (main orchestrator)
+
+AWS CodeDeploy
+    -) Cloud / on-premise / Hybrid
+    -) Require CodeDeploy Agent
+
+AWS CodeArtifact
+    -) Resolves dependencies
+    -) Like Maven, Gradle, npm, yarn, twine, pip, NuGet
+
+AWS CodeStar = Unified UI
+
+AWS Cloud9 = IDE
+
+AWS Systems Manager (SSM)
+    -) Manage on-promises infrastructure
+    -) Needs the SSM Agent
+    -) No ssh access required
+
+AWS OpsWorks = Managed Chef & Puppet
