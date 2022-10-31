@@ -1,32 +1,3 @@
-Machine Learning:
-	Amazon Rekognition
-	Transcribe: speech to text (ASR)
-	Polly: text to Speech
-	Amazon Translate
-
-Amazon Lex & Connect (like Alexa)
-	LEX: ASR, intent as well - bots
-	Connect: Virtual Contect calls
-
-Amazon Comprehend: NLP Natural Language Processing (servless)
-
-Amazon SageMaker:
-	build ML models
-	Train and Tune
-	New data
-
-Amazon Forecast
-	predict (sales) from historical data -> Forecasting model
-
-Amazon Kendra
-	extract info from lots of data resources (WORD, text, pdf)
-	with natural language search capabilities
-
-Amazon Personalize
-	recommentaions for buying products
-
-
-
 Control Tower: govern multi-account environment
 
 

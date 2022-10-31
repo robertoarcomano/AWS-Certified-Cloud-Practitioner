@@ -1,1 +1,71 @@
+AWS Organizations to manage multiple AWS Accounts
+    -) Isolation
+    -) Tagging
+    -) OU
+
+SCP Service Control Policies
+    -) User/Roles
+    -) Applies to Root account, but not to Master
+
+Share the price among all the OUs
+
+AWS Control Tower to setup multi-account environment
+
+Pricing Models
+    -) Pay as you go
+    -) Save when you reserve
+    -) Pay less by using more
+    -) Pay less as AWS grows
+
+Free Services
+    -) Elastic Beanstalk
+    -) Cloud Formation
+    -) Auto Scaling Groups
+
+EC2 Instances
+    -) OnDemand
+    -) Reserved
+    -) Spot
+    -) Dedicated Host
+    -) Saving Plans
+
+S3
+    -) Storage Class
+    -) Data transfer OUT
+
+EBS
+    -) GB
+    -) Storage class
+
+RDS
+    -) Hours
+    -) DB Size
+    -) Requests
+
+CloudFront
+    -) Data Transfer OUT
+    -) HTTPs requests
+
+Networking best price going across
+    -) Private
+    -) Intra AZ
+
+AWS Compute Optimizer recommends with ML
+
+Pricing Calculator: Estimations
+Billing Dashboard
+Cost Allocation Tags (Resource Groups)
+Cost and Usage Reports
+Cost Explorer - Forecast
+Billing Alarms in CloudWatch
+AWS Budgets
+Trusted Advisor recommendations
+
+Supports:
+    -) Basic(free)
+    -) Developer (Business hours email)
+    -) Business Support Plan (production, all checks, < 4/1 hours)
+    -) Enterprise on Ramp: Technical Account Managers (TAM) < 30'
+    -) Enterprise Support: Designated TAM < 15'
+
 
