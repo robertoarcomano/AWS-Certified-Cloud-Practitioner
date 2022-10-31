@@ -13,8 +13,8 @@
 13 Cloud Integrations 17
 14 Cloud Monitoring 50
 15 VPC & Networking 26
-
 16 Security & Compliance 49
+
 17 Machine Learning 16
 18 Account Management, Billing & Support 70
 19 Advanced Identity 8
