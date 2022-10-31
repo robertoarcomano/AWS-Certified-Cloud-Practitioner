@@ -1,1 +1,15 @@
+Synchronous/Asynchronous
 
+Amazon SQS Simple Queue Service
+    -) Oldest
+    -) Managed
+    -) Decouple applications
+    -) Messages delete after reading
+    -) Consumers share the reading -> horizontal scaling
+    -) Pull
+
+Amazon Kinesis = Managed Real-time big data streaming - Kafka
+
+Amazon SNS = Send message to many receivers using topics, push
+
+Amazon MQ = When migrating from MQTT
