@@ -6,8 +6,8 @@ Architecture
 	5. Game days for improving with users
 
 Design Principles:
-	1. Scalability
-	2. Disposible Resources
+	1. Scalability (H/V)
+	2. Disposable Resources
 	3. Automation: serverless, autoscaling, IaaS
 	4. Loose Coupling (break it in components
 	5. Services, not Servers
