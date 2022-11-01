@@ -9,12 +9,12 @@ EBS: Elastic Block Store
 
 AMI = Amazon Machine Image
     -) Custom image
-    -) Specific regione
+    -) Specific region
     -) Launchable from
         -) Public AMI
         -) Private
         -) AWS Marketplace AMI
-   -) Process
+   -) Process to customize it
         -) Start EC2
         -) Customize it
         -) Stop it
@@ -39,5 +39,5 @@ EFS - Elastic File System
 
 FSx: third party high performance
     -) FSx for Lustre (High performance computing HPC): Linux Cluster
-    -) FSx for Windows File Server (SMB & NTFS, AD, from on-primise also)
+    -) FSx for Windows File Server (SMB & NTFS, AD, from on-premise also)
     -) FSx for NetApp ONTAP

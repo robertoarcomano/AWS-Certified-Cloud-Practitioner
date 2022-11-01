@@ -50,6 +50,7 @@ Networking best price going across
     -) Private
     -) Intra AZ
 
+###
 AWS Compute Optimizer recommends with ML
 
 Pricing Calculator: Estimations
@@ -59,6 +60,7 @@ Cost and Usage Reports
 Cost Explorer - Forecast
 Billing Alarms in CloudWatch
 AWS Budgets
+###
 Trusted Advisor recommendations
 
 Supports:

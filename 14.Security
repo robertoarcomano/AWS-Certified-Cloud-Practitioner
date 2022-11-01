@@ -7,7 +7,7 @@ DDOS Protection
 
     -) WAF Web Application Firewall
         -) Layer 7
-        -) Deploy on LBm API Gateway, CloudFront
+        -) Deploy on LB API Gateway, CloudFront
         -) Web ACL
 
 Penetration testing are welcomes, but DDOS
@@ -37,10 +37,12 @@ AWS Artifact = Documentation for compliance and security
     -) Reports
     -) Agreements
 
+###
 Amazon GuardDuty
     -) Machine Learning uses logs to protect data
 	-) Protection from CryptoCurrency attacks
 
+###
 Amazon Inspector EC2 and container only
 	-) Security assessments
 	-) Generates Reports

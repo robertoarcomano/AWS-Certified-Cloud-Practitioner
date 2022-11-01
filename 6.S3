@@ -78,5 +78,7 @@ AWS Snow Family (needed if time > 1 week)
     -) Edge Computing: portable devices to collect and process data at the edge
         -) Snowcone
         -) Snowball Edge
-    -) AWS OpsHub
+    ###
+    -) AWS OpsHub SW For Snow Family
+    ###
     -) AWS Storage Gateway: bridge on-premises with AWS S3

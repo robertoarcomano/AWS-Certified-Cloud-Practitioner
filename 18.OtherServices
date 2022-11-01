@@ -8,6 +8,7 @@ AWS IoT Core
 
 Amazon Elastic Transcoder media converter
 
+###
 AWS AppSync
 
 AWS Amplify Full Stack Dev
@@ -30,6 +31,7 @@ AWS Elastic Disaster Recovery (DRS)
     -) Failover in minutes
     -) Failback
 
+###
 AWS DataSync
 	-) Move on-premises to AWS, S3, EFS, FSX
 	-) Incremental replication

@@ -1,6 +1,6 @@
 Relational Databases vs NoSQL Databases (JSON)
 RDS = Relational Database Service
-    -) managed
+    -) Managed
     -) PGSQL, MySQL, MariaDB, Oracle, SQL Server, Aurora
     -) PRO: automatic OS patching, backup, replica for read performance, DR, Scaling
 
@@ -19,7 +19,7 @@ Amazon ElastiCache
 DynamoDB
     -) NoSQL (key/value)
     -) Fully managed
-    -) serverless
+    -) Serverless
     -) Fast with low latency
     -) DAX = DynamoDB Accelerator (in-memory cache), 10x faster
     -) Global Tables
@@ -27,7 +27,7 @@ DynamoDB
         -) Active - Active replication
 
 Redshift
-    -) PGSQL based
+    -) PgSQL based
     -) OLAP (Online Analytical processing) analytics and data warehousing
     -) Load data every hour
     -) 10x faster other OLAP solution
@@ -42,11 +42,13 @@ Amazon EMR
     -) Many EC2 instances
     -) Autoscaling
 
+###
 Amazon Athena
     -) Query (SQL) service to analyze S3 data
     -) Serverless
     -) Use case: BI, Analytics, Reporting, Logs
 
+###
 Amazon QuickSight
     -) Machine Learning BI to create Dashboards
 
@@ -54,11 +56,13 @@ DocumentDB
     -) MongoDB AWS version
     -) Managed, HA, 3 AZ, AutoScale
 
+###
 Amazon Neptune
     -) Graph DB (Social Network)
     -) Managed
     -) HA 3 AZ
 
+###
 Amazon QLDB - "Quantum Ledger DB"
     -) Financial transactions log
     -) Managed, Serverless, HA, 3AZ
@@ -66,15 +70,18 @@ Amazon QLDB - "Quantum Ledger DB"
     -) Cryptographically verifiable
     -) central oriented (financial rules)
 
+###
 Amazon Managed Blockchain
     -) no central authority
 
+###
 AWS GLUE
     -) ETL (Extract, Transform, Load): Data transformation
     -) serverless
     -) Use case: prepare S3/RDS for Redshift
     -) Glue Data Catalog for datasets
 
+###
 DMS
     -) Database Migration Service between DBs
     -) Source remains available during migration

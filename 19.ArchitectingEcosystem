@@ -12,6 +12,7 @@ Design Principles:
 	4. Loose Coupling (break it in components, microservices)
 	5. Services, not Servers
 
+###
 Web Architecture Framework: 6 pillars and synergy among them
 	1. Operational Excellence
 	  -) Code everywhere
@@ -74,6 +75,3 @@ AWS Ecosystem
 	 AWS Navigate Program (Better and better)
 
 AWS Knowledge Center
-
-
-

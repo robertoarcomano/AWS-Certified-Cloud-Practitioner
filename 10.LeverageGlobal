@@ -21,6 +21,7 @@ AWS CloudFront
 
 S3 Transfer Acceleration = forward the data to a S3 bucket closer to the client
 
+###
 AWS Global Accelerator = move the IP to an Edge Location (60% improvement)
 
 AWS Outposts = AWS Racks put on-premises

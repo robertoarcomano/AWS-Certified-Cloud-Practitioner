@@ -24,16 +24,16 @@ VPC FLow Logs
 
 VPC Peering
     -) Connect 2 VPC
-
+###
 VPC Endpoints
     -) Connect to AWS Services using Private Network
     -) Gateway (S3 & DynamoDB)
     -) Interface (others)
-
+###
 AWS PrivateLink (VPC Endpoint Services)
     -) Connect to VPC in a scalable way
     -) Require a Network Load Balancer (Service VPC) and ENI (Customer VPC)
-
+###
 Site to Site VPN
     -) On-premise to Cloud
     -) Encrypted

@@ -13,8 +13,10 @@ AWS CloudTrail = Audit
     -) Access logs, API calls
     -) Insights: unusual activities
 
+###
 AWS X-Ray = Debug microservices applications
 
+###
 Amazon CodeGuru
     -) ML for code and performance review
     -) Reviewer
