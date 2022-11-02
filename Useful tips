@@ -1,0 +1,24 @@
+APN Consulting Partner = Help on how to use AWS Services
+APN Technology Partner = Provides HW or Connectivity services
+AWS Trusted Advisor = online tool to help on performance and security
+Concierge Support Team = Billing and accounts help on Enterprise accounts
+Auditing = CloudTrail
+AWS Organizations = manage AWS accounts of all units
+EC2 Instances = one-minute minimum charge
+Dynamo DB with global tables = different regions master-master <> Aurora no
+Enterprise Support = online training with self-paced labs + 24x7 high-quality tech
+Acceptable Use Policy = prohibited uses
+CloudFront uses AWS Edge locations
+AWS Local Zones = Low Latency access
+AWS Step Function = visual workflow for Lambda
+AWS Compute Optimizer = optimal EC2 types, EBS, Lambda
+Reliability pillar Amazon VPC, AWS Trusted Advisor, AWS Service Quotas (formerly called AWS Service Limits).
+Trusted Advisor = find low utilization EC2
+Encryption = Glacier + Storage Gateway
+Beanstalk = deploy and manage appls
+Operational insights = AWS Systems Manager
+Cloud = Trade capital expense (CAPEX) for the operational expense (OPEX).
+Quick Starts = help deploy popular technologies on AWS
+Shared controls on responsıbılıty = Patch and Config management
+
+
