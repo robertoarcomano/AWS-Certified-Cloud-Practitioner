@@ -20,5 +20,58 @@ Operational insights = AWS Systems Manager
 Cloud = Trade capital expense (CAPEX) for the operational expense (OPEX).
 Quick Starts = help deploy popular technologies on AWS
 Shared controls on responsıbılıty = Patch and Config management
+EFS = from on-premises
+NACL = subnet level
+VPC = spans AZ in a region
+IAM Policy = grant to S3 buckets
+Security Group = Stateful (one direction -> return)
+AWS Direct Connect or Managed VPN = hybrid
+Busıness < 1 hour
+STS = temporary token
+TCO calculator
+S3 and EC2 = Regional management
+DMS = Database Migration Service
+Managed services = ITIL
+Service Catalog = AWS Services allowed
+Inspector = check for Compliance and security best practices
+Trusted Advisor = guidance on provisioning resource satisfying best practices
+Storage Gateway = fıle, volume, tape
+Virtual Private Gateway = for Managed VPN
+Glue = ETL
+Resource Group = Tags
+VPN CloudHub = Multiple VPN
+HIPAA = Health
+Standard, Convertible, Scheduled = Reserved Instance
+DynamoDB = Fully managed and scalable with no Downtime
+Big Discount if paid before = EC2, DynamoDB, ElastıCache, RDS, RedShıft
+Automation = Beanstalk, CloudFormation
+RDS = Automatic backup
+Democratize advanced technologies = Performance Efficiency
+low-latency among AZ
+IAM Temporary + no access key for Root = Best Practice
+Shıeld on Edge Locations
+EC2 autoscaling = Multiple AZs 1 region
+CloudWatch Basic/Detailed Monitoring = 5/1 minute
+Route 53 = Traffic Flow
+VPC = Span all AZ in the Region
+Desıgn for faılure
+EC2 billing = seconds or hours
+VPN section = endpoints and subnets
+Access Advisor = unnecessary permissions
+Gateway Vırtual Tape Lıbrary = popular software
+Dedicated Hosts = per-core licence
+Concierge = Enterprise only
+app-facing serverless = Lambda and API Gateway
+Developer Support = only email, unlimited support cases
+IAM Roles Benefits = more secure than access keys + easier
+Elastic IPs = only in 1 region
+S3 = stores object comprised of keys
+RDS Restore in 5 minutes = Point-in-time recovery
+S3 and DynamoDB = automatically scale
+Lambda = horizontal scaling
+Amazon RDS Console = automate patches
+LightSail = LAMP
+
+
 
 
